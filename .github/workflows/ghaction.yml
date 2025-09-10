@@ -13,4 +13,7 @@ jobs:
       - name: Print some
         run: echo "Hello"
       - name: Print some
-        run: echo "Bye-Bye"
+        run: |
+          echo "Bye-Bye"
+          echo "Bye-Bye"
+          echo "Bye-Bye"
